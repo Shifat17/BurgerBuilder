@@ -1,0 +1,32 @@
+.NavigationItems {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  position: relative;
+  flex-flow: column;
+  align-items: center;
+  height: 100%;
+}
+
+.button {
+  background-color: #a1743179; /* Green */
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+@media (min-width: 500px) {
+  .NavigationItems {
+    flex-flow: row;
+  }
+}
